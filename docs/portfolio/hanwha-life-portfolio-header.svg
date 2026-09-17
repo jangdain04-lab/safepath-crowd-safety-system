@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="320" viewBox="0 0 1600 320">
+  <rect width="1600" height="320" rx="38" fill="#FFF7F1"/>
+  <circle cx="1360" cy="80" r="210" fill="#FA741A" opacity="0.98"/>
+  <circle cx="1500" cy="190" r="150" fill="#FF9A62" opacity="0.75"/>
+  <circle cx="1260" cy="255" r="115" fill="#FFB67F" opacity="0.88"/>
+  <text x="90" y="94" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#F36F1D">HANWHA LIFE · 2026 HANWHA FINANCE RECRUITMENT</text>
+  <text x="90" y="158" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#111111">Service &amp; Business Planning Portfolio</text>
+  <text x="90" y="214" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#5C5C5C">Jang Dain · Customer Insight · Data-driven Decision · Execution</text>
+  <rect x="90" y="248" width="150" height="6" rx="3" fill="#F36F1D"/>
+</svg>
