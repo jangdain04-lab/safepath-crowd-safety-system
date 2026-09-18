@@ -2,6 +2,8 @@
 
 > CCTV 기반 인파 데이터를 분석해 축제 현장의 혼잡도를 실시간으로 파악하고, **관리자 대응과 관람객 안전 안내를 연결하는 안전관리 시스템**입니다.
 
+[Notion Portfolio ↗](https://lush-echo-8d0.notion.site/Service-Business-Planning-Portfolio-3dde2258cda6804b8c96fcae751252b9)
+
 | 항목 | 내용 |
 | --- | --- |
 | Project | 산업경영공학 캡스톤디자인 |
