@@ -1,0 +1,46 @@
+{
+  "name": "organizer-app",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "set REACT_NATIVE_PACKAGER_HOSTNAME=192.168.0.49&& expo start --host lan --clear",
+    "start:tunnel": "expo start --tunnel --clear",
+    "android": "set REACT_NATIVE_PACKAGER_HOSTNAME=192.168.0.49&& expo start --android --host lan",
+    "ios": "set REACT_NATIVE_PACKAGER_HOSTNAME=192.168.0.49&& expo start --ios --host lan",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/ngrok": "^4.1.3",
+    "@expo/vector-icons": "^15.0.3",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-navigation/bottom-tabs": "^7.4.0",
+    "@react-navigation/native": "^7.1.8",
+    "@react-navigation/stack": "^7.4.0",
+    "expo": "~54.0.29",
+    "expo-asset": "~12.0.11",
+    "expo-auth-session": "~7.0.11",
+    "expo-image-picker": "~17.0.11",
+    "expo-status-bar": "~3.0.9",
+    "expo-web-browser": "~15.0.11",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-gesture-handler": "~2.28.0",
+    "react-native-reanimated": "~4.1.1",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "react-native-svg": "15.12.1",
+    "react-native-webview": "13.15.0",
+    "react-native-worklets": "0.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~19.1.10",
+    "typescript": "~5.9.2"
+  },
+  "overrides": {
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "@types/react": "~19.1.10"
+  }
+}
