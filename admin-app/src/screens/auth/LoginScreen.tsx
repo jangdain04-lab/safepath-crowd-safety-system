@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import {
   ActivityIndicator,
   Alert,
-  Image,
   Modal,
   Pressable,
   ScrollView,
@@ -285,7 +284,9 @@ export default function LoginScreen({ navigation }: any) {
         contentContainerStyle={styles.container}
         showsVerticalScrollIndicator={false}
       >
-        <Image source={require('../../../assets/logo.png')} style={styles.logo} />
+        <Text style={{ fontSize: 38, fontWeight: '900', color: '#111827', marginBottom: 18 }}>
+          SAFE<Text style={{ color: '#55CCC4' }}>PATH</Text>
+        </Text>
 
         <Text style={styles.slogan}>
           모두의 <Text style={styles.accent}>안전한</Text> 길을 만들다
