@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import {
   ActivityIndicator,
   DeviceEventEmitter,
-  Image,
   KeyboardAvoidingView,
   Platform,
   StyleSheet,
@@ -120,17 +119,6 @@ function SplashScreen() {
   return (
     <SafeAreaView style={styles.screen}>
       <View style={styles.center}>
-        <Image
-          source={require('../../assets/safepath-logo.png')}
-          style={[
-            styles.logoImage,
-            {
-              width: 154 * scale,
-              height: 154 * scale,
-            },
-          ]}
-        />
-
         <Text style={[styles.brand, { fontSize: 43 * scale }]}>
           SAFE<Text style={styles.brandMint}>PATH</Text>
         </Text>
@@ -200,16 +188,9 @@ function InviteCodeScreen({
         style={styles.inviteContainer}
       >
         <View style={styles.inviteTop}>
-          <Image
-            source={require('../../assets/safepath-logo.png')}
-            style={[
-              styles.logoImage,
-              {
-                width: 146 * scale,
-                height: 146 * scale,
-              },
-            ]}
-          />
+          <Text style={[styles.brand, { fontSize: 38 * scale, marginTop: 0 }]}>
+            SAFE<Text style={styles.brandMint}>PATH</Text>
+          </Text>
 
           <Text style={[styles.slogan, { fontSize: 28 * scale }]}>
             모두의 <Text style={styles.sloganMint}>안전한</Text> 길을 만들다.
@@ -275,10 +256,6 @@ const styles = StyleSheet.create({
   splashLoader: {
     position: 'absolute',
     alignSelf: 'center',
-  },
-
-  logoImage: {
-    resizeMode: 'contain',
   },
 
   brand: {
