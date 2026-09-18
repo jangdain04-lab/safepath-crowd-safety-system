@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { View, Text, StyleSheet, Image } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 
 export default function SplashScreen({ navigation }: any) {
   useEffect(() => {
@@ -12,8 +12,6 @@ export default function SplashScreen({ navigation }: any) {
 
   return (
     <View style={styles.container}>
-      <Image source={require('../../../assets/logo.png')} style={styles.logo} />
-
       <Text style={styles.logoText}>
         SAFE<Text style={styles.logoAccent}>PATH</Text>
       </Text>
@@ -27,12 +25,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFFFFF',
     alignItems: 'center',
     justifyContent: 'center',
-  },
-  logo: {
-    width: 154,
-    height: 154,
-    resizeMode: 'contain',
-    marginBottom: 54,
   },
   logoText: {
     fontSize: 36,
