@@ -4,10 +4,9 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "start": "set REACT_NATIVE_PACKAGER_HOSTNAME=192.168.0.49&& expo start --host lan --clear",
-    "start:tunnel": "expo start --tunnel --clear",
-    "android": "set REACT_NATIVE_PACKAGER_HOSTNAME=192.168.0.49&& expo start --android --host lan",
-    "ios": "set REACT_NATIVE_PACKAGER_HOSTNAME=192.168.0.49&& expo start --ios --host lan",
+    "start": "expo start --clear",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
     "web": "expo start --web"
   },
   "dependencies": {
