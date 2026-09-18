@@ -110,3 +110,12 @@ npx expo start
 ## 8. What I Learned
 
 이 프로젝트에서 가장 크게 배운 점은 **기능을 더하는 것보다 서비스를 실제로 필요로 하는 상황을 다시 정의하는 것이 중요하다**는 점이었습니다. 피드백을 근거로 적용 대상을 바꾸고, 분석 결과가 관리자 대응과 관람객 안내로 연결되도록 정보 구조를 설계했습니다.
+
+---
+
+## Portfolio Projects
+
+- [SafePath · Crowd Safety System](https://github.com/jangdain04-lab/safepath-crowd-safety-system)
+- [Mate It · Roommate Matching Service](https://github.com/jangdain04-lab/mateit-roommate-matching-service)
+- [Book Recommendation Platform](https://github.com/jangdain04-lab/book-recommendation-platform)
+
