@@ -74,13 +74,37 @@ Admin App ───────── Visitor App
 safepath-crowd-safety-system/
 ├── admin-app/       # 관리자용 프론트엔드 핵심 코드
 ├── visitor-app/     # 관람객용 프론트엔드 핵심 코드
-├── backend/         # API·DB·예측 모듈 핵심 코드
-├── docs/            # 구조 및 포트폴리오 문서
+├── backend/         # API·DB·예측·영상분석 핵심 코드
+├── .gitignore
 └── README.md
 ```
 
-> 채용 포트폴리오용 저장소로 정리하면서 런타임 DB, 캐시, 테스트 영상, 대용량 모델 weight, 로컬 개발환경 파일은 제외했습니다.
+> 공개 포트폴리오용 저장소로 정리하면서 런타임 DB, 캐시, 테스트 영상, 대용량 모델 weight, 로컬 개발환경 파일과 일부 디자인 이미지 자산은 제외했습니다.
 
-## 7. What I Learned
+## 7. Getting Started
+
+### Backend
+
+```bash
+cd backend
+python -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+`backend/.env.example`을 참고해 데이터베이스와 외부 API 환경변수를 설정합니다.
+
+### Admin / Visitor App
+
+```bash
+cd admin-app   # or visitor-app
+npm install
+npx expo start
+```
+
+각 앱의 `.env.example`에서 API 주소를 확인할 수 있습니다.
+
+## 8. What I Learned
 
 이 프로젝트에서 가장 크게 배운 점은 **기능을 더하는 것보다 서비스를 실제로 필요로 하는 상황을 다시 정의하는 것이 중요하다**는 점이었습니다. 피드백을 근거로 적용 대상을 바꾸고, 분석 결과가 관리자 대응과 관람객 안내로 연결되도록 정보 구조를 설계했습니다.
